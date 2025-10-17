@@ -55,7 +55,7 @@ class Stats{
 
 export class Session{
 
-    lettersAmount = 10;
+    lettersAmount = 20;
 
     //static current letter index
     currentLetterI = 0;
