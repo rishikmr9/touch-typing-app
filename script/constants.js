@@ -1,0 +1,4 @@
+export const TIME = {
+    MILLISEC_PER_SEC: 1000,
+    MILLISEC_PER_MIN: 60000,
+} 

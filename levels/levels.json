@@ -1,0 +1,14 @@
+{
+    "levels":[
+        {"level": 1, "practiseLetters": ["f", "j"]},
+        {"level": 2, "practiseLetters": ["d", "k"]},
+        {"level": 3, "practiseLetters": ["g", "h"]},
+        {"level": 4, "practiseLetters": ["s", "l"]},
+        {"level": 5, "practiseLetters": ["a", ";"]},
+        {"level": 6, "practiseLetters": ["q", "p"]},
+        {"level": 7, "practiseLetters": ["w", "o"]},
+        {"level": 8, "practiseLetters": ["e", "i"]},
+        {"level": 9, "practiseLetters": ["r", "u"]},
+        {"level": 10, "practiseLetters": ["t", "y"]}
+    ]
+}

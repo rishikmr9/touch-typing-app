@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.container-vr {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+:root {
+  --primary-color-1: #333;
+  --primary-color-2: #555;
+  --seocndary-color-1: #ddd;
+  --seocndary-color-2: #efefef;
+  --secondary-color-3: rgb(60, 255, 0);
+  --accent-color: #a5f;
+  --error: #f33;
+  --rounded-sm: 3px;
+  --body-spacing-x: 50px;
+  --body-spacing-y: 100px;
+}
+
+body {
+  font: normal 1rem/1.5 Helvetica;
+  letter-spacing: 2px;
+  overflow-x: hidden;
+  color: var(--primary-color-1);
+}
+
+.btn {
+  background: var(--secondary-color-3);
+  color: rgb(40, 41, 41);
+  padding: 10px 10px;
+  border: none;
+  border-radius: var(--rounded-sm);
+  cursor: pointer;
+  font: normal 0.5rem/1.5 inherit;
+  letter-spacing: inherit;
+  max-width: 150px;
+}
+
+.input {
+  padding: 10px;
+  border-radius: var(--rounded-sm);
+  border: none;
+  background: var(--seocndary-color-2);
+  letter-spacing: inherit;
+  max-width: 300px;
+}
+
+.section {
+  padding: 50px 100px;
+}
+
+.hide {
+  display: none;
+}
+
+.lettersInput {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.letters {
+  border: 1px solid var(--seocndary-color-2);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.letters__box {
+  display: inline-block;
+  min-width: 40px;
+  padding: 15px 0;
+  border-radius: var(--rounded-sm);
+  text-align: center;
+  background: var(--primary-color-1);
+  color: var(--seocndary-color-2);
+}
+.letters__box--current {
+  transform: scale(1.1);
+}
+.letters__box--correct {
+  border-bottom: 8px solid var(--secondary-color-3);
+}
+.letters__box--wrong {
+  border-bottom: 8px solid var(--error);
+}
+
+.message {
+  position: fixed;
+  bottom: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 10px;
+  width: 200px;
+  height: -moz-fit-content;
+  height: fit-content;
+  background: var(--seocndary-color-1);
+  padding: 10px 20px;
+  border: 1px solid var(--seocndary-color-1);
+}
+
+/*---------- stats -----------*/
+.stats {
+  width: 100%;
+  align-items: center;
+}
+.stats > .container {
+  justify-content: center;
+  font-weight: bold;
+  color: #222;
+  gap: 5rem;
+}
+.stats__data {
+  flex-direction: column-reverse;
+  align-items: center;
+  gap: 1rem;
+}
+.stats__data-value {
+  border-radius: 50%;
+  text-align: center;
+  width: 8rem;
+  height: 8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.intensity-high {
+  background: rgb(79, 241, 79);
+}
+
+.intensity-mid {
+  background: rgb(245, 245, 66);
+}
+
+.intensity-low {
+  background: rgb(247, 97, 97);
+}
+
+.level-box {
+  background: var(--seocndary-color-2);
+  cursor: pointer;
+  padding: 20px;
+  border-radius: var(--rounded-sm);
+}/*# sourceMappingURL=style.css.map */
