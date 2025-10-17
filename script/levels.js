@@ -5,7 +5,7 @@ export class Levels{
     static async fetchLevel(){
         try {
 
-            const api = await fetch("/levels/levels.json");
+            const api = await fetch("levels/levels.json");
             const res = await api.json();
             
             
